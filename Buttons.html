@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .button {
+            padding: 0;
+            border: none;
+            font: inherit;
+            color: inherit;
+            background-color: transparent;
+            /* show a hand cursor on hover; some argue that we
+  should keep the default arrow cursor for buttons */
+            cursor: pointer;
+            border: 1px solid black;
+            width: 150px;
+            height: 80px;
+            color: ivory;
+            font-size: 35px;
+            margin: 8px;
+            border: none;
+            transition: all 0.2s ease;
+
+
+        }
+
+        .button-red {
+            background-color: red;
+        }
+
+        .button-green {
+            background-color: green;
+        }
+
+        .button-blue {
+            background-color: blue;
+        }
+
+        .button-orange {
+            background-color: orange;
+        }
+
+        .button-skyblue {
+            background-color: lightskyblue;
+        }
+
+        .button-rounded {
+            border-radius: 30px;
+        }
+
+        .button-ghost1 {
+
+            background-color: transparent;
+            color: blue;
+            border: 1px solid blue;
+        }
+
+        .button-ghost2 {
+
+            background-color: transparent;
+            color: green;
+            border: 1px solid green;
+        }
+
+        .button-ghost2:hover {
+
+            background-color: green;
+            color:white;
+            border: none;
+        }
+
+        .button-ghost3 {
+
+            background-color: transparent;
+            color: skyblue;
+            border: 1px solid skyblue;
+        }
+
+        .button-ghost4 {
+
+            background-color: transparent;
+            color: orange;
+            border: 1px solid orange;
+        }
+
+        .button-ghost5 {
+
+            background-color: transparent;
+            color: red;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button class="button button-blue">
+            primary
+        </button>
+        <button class="button button-green">
+            success
+        </button>
+        <button class="button button-skyblue">
+            info
+        </button>
+        <button class="button button-orange">
+            warning
+        </button>
+        <button class="button button-red">
+            danger
+        </button>
+    </div>
+    <div>
+        <button class="button button-blue button-rounded">
+            primary
+        </button>
+        <button class="button button-green button-rounded">
+            success
+        </button>
+        <button class="button button-skyblue button-rounded">
+            info
+        </button>
+        <button class="button button-orange button-rounded">
+            warning
+        </button>
+        <button class="button button-red button-rounded">
+            danger
+        </button>
+    </div>
+    <div>
+        <button class="button button-blue button-ghost1">
+            primary
+        </button>
+        <button class="button button-green button-ghost2">
+            success
+        </button>
+        <button class="button button-skyblue button-ghost3">
+            info
+        </button>
+        <button class="button button-orange button-ghost4">
+            warning
+        </button>
+        <button class="button button-red button-ghost5">
+            danger
+        </button>
+    </div>
+
+</html>
